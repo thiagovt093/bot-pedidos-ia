@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": "x-burger",
+      "name": "X-Burger",
+      "category": "lanches",
+      "price": 24.9,
+      "complements": [
+        {
+          "category": "ponto da carne",
+          "required": true,
+          "options": [
+            {"name": "mal passado", "price": 0.0},
+            {"name": "ao ponto", "price": 0.0},
+            {"name": "bem passado", "price": 0.0}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cheeseburger",
+      "name": "Cheeseburger",
+      "category": "lanches",
+      "price": 26.5,
+      "complements": []
+    },
+    {
+      "id": "x-frango",
+      "name": "X-Frango",
+      "category": "lanches",
+      "price": 22.0,
+      "complements": [
+        {
+          "category": "pão",
+          "required": true,
+          "options": [
+            {"name": "francês", "price": 0.0},
+            {"name": "integral", "price": 1.5}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cachorro-quente",
+      "name": "Cachorro-Quente",
+      "category": "lanches",
+      "price": 18.5,
+      "complements": []
+    },
+    {
+      "id": "batata-frita",
+      "name": "Batata Frita",
+      "category": "porcoes",
+      "price": 16.0,
+      "complements": [
+        {
+          "category": "molho",
+          "required": false,
+          "options": [
+            {"name": "ketchup", "price": 0.0},
+            {"name": "maionese", "price": 2.0},
+            {"name": "barbecue", "price": 2.5}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onion-rings",
+      "name": "Onion Rings",
+      "category": "porcoes",
+      "price": 17.5,
+      "complements": [
+        {
+          "category": "molho",
+          "required": false,
+          "options": [
+            {"name": "cheddar", "price": 2.0},
+            {"name": "chipotle", "price": 2.5}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "suco-laranja",
+      "name": "Suco de Laranja",
+      "category": "bebidas",
+      "price": 9.5,
+      "complements": []
+    },
+    {
+      "id": "suco-limao",
+      "name": "Suco de Limão",
+      "category": "bebidas",
+      "price": 9.0,
+      "complements": []
+    },
+    {
+      "id": "coca-cola",
+      "name": "Coca-Cola 600ml",
+      "category": "bebidas",
+      "price": 7.5,
+      "complements": []
+    },
+    {
+      "id": "agua",
+      "name": "Água Mineral 500ml",
+      "category": "bebidas",
+      "price": 5.0,
+      "complements": []
+    }
+  ]
+}
